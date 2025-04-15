@@ -91,6 +91,11 @@ header {
     margin-right: 8px;
 }
 
+.post-icons img:hover {
+    opacity: 0.5;
+}
+
 .post-body p {
     margin-top: 9px;
 }
+
