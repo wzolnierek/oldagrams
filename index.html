@@ -1,9 +1,37 @@
 <html>
     <head>
         <link rel="stylesheet" href="index.css">
-    </head>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Source+Sans+3:wght@400;700&display=swap" rel="stylesheet">
+   </head>
+
     <body>
-        <img src="images/logo.png">
+        <header>
+            <img id="logo" src="./images/logo.png" alt="">
+            <img class="avatar-img" src="./images/user-avatar.png" alt="">
+        </header>
+
+        <section class="post">
+             <div class="account">
+                <img class="avatar-img" src="./images/avatar-vangogh.jpg" alt="">
+                <div class="account-name">
+                    <h1>Vincent van Gogh</h1>
+                    <h2>Zudert, Netherlands</h2>
+                </div>
+            </div>
+            <img class="post-img" src="./images/post-vangogh.jpg" alt="">
+            <div class="post-body">
+                <div class="post-icons">
+                    <img src="./images/icon-heart.png" alt="">
+                    <img src="./images/icon-comment.png" alt="">
+                    <img src="./images/icon-dm.png" alt="">
+                </div>
+                <p class="bold-text">21,234 likes</p>
+                <p><span class="bold-text">vincey1853</span> just took a few musrooms lol</p>
+            </div>
+        </section>
+        
         <script src="index.js"></script>
     </body>
 </html>
